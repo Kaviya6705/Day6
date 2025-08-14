@@ -1,0 +1,17 @@
+public class upptolow {
+	public static void main(String[] args) {
+		String text="kaviya Selvi";
+		char[] chars = text.toCharArray();
+
+        for (int i = 0; i < chars.length; i++) {
+            if (Character.isUpperCase(chars[i])) {
+                chars[i] = Character.toLowerCase(chars[i]);
+            } else if (Character.isLowerCase(chars[i])) {
+                chars[i] = Character.toUpperCase(chars[i]);
+            }
+            System.out.println("Toggled : " + new String(chars));
+        }
+		}
+
+
+}
