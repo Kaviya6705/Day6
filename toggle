@@ -1,0 +1,10 @@
+public class taggle {
+
+	public static void main(String[] args) {
+		String name="kaviya";
+		String name2="SELVI";
+		System.out.println(name.toUpperCase());
+		System.out.println(name2.toLowerCase());
+		}
+
+}
